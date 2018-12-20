@@ -1,0 +1,23 @@
+<div id="divTableHeader" style="background-color:#e1e1e1;overflow:hidden">
+<table cellpadding="0" cellspacing="0" id="tblGridData" style="border-top: solid 1px #e6e6e6;border-left:solid 1px #cccccc;" width="100%">
+<tr style="border-bottom: solid 1px #e6e6e6; font-family: Arial; font-size: 10px;
+                font-weight: bold; color: #004276; background-color: #e1e1e1;height:26px">
+<td class="b_r_c" style="width:32%">
+<div align="right" style="overflow:hidden;width:99%;">
+<a href="javascript:void(0)" onclick=";rePre()" style="vertical-align:top;"><img alt="Xem dữ liệu trước" border="0" src="http://s.cafef.vn/BCTCFull/Images/Previous.jpg"> Trước</img></a>       
+                        <a href="javascript:void(0)" onclick=";reNext()" style="vertical-align:top;">Sau <img alt="Xem dữ liệu tiếp" border="0" src="http://s.cafef.vn/BCTCFull/Images/Next.jpg"/></a>
+</div>
+</td>
+<td class="h_t" style="width: 15%;">
+                    Quý 4-2016</td>
+<td class="h_t" style="width: 15%;">
+                    Quý 1-2017</td>
+<td class="h_t" style="width: 15%;">
+                    Quý 2-2017</td>
+<td class="h_t" style="width: 15%;">
+                    Quý 3-2017</td>
+<td class="h_t_tt">
+                    Tăng trưởng</td>
+</tr>
+</table>
+</div>
