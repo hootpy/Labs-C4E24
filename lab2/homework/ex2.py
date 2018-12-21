@@ -14,7 +14,7 @@ table1 = soup.find("div", "cf_ResearchDataHistoryInfo")
 title_soup = table1.find_all("td","h_t")
 header = ["Nội dung"]
 for i in title_soup:
-    title = i.string.replace("\n","").replace("\r","")
+    title = i.string.replace("\n","").replace("\r","").replace(" ","")
     header.append(title)
 
 table_content = table1.find("table", id="tableContent")
