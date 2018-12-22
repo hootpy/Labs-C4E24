@@ -11,9 +11,9 @@ raw_data = conn.read()
 #1.3 Decode data
 page_content = raw_data.decode("utf-8")
 
-# f = open("dantri.html","wb")
-# f.write(raw_data)
-# f.close
+f = open("dantri.html","wb")
+f.write(raw_data)
+f.close
 
 #2. Extract ROI
 soup = BeautifulSoup(page_content, "html.parser")
