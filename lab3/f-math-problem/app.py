@@ -151,6 +151,7 @@ class Board(QWidget):
             self.incorrectSound.play()
         self.getRandomMathProblem()
         self.repaint()
+    
 
     def paintEvent(self, event):
         qp = QPainter()
